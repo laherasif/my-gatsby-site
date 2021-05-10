@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Yellowtail&display=swap');
+
+
+
+.about{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-bottom: 4rem;
+
+}
+
+.about .title{
+    width: 100%;
+    padding-top: 3rem;
+    overflow: hidden;
+}
+.title h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 98px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+}
+
+
+.title p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #404040;
+}
+
+
+.about .about-section {
+    width: 100%;
+    overflow: hidden
+}
+
+.about-section .first-section .section-vision{
+    width: 100%;
+    height: 100%;
+
+}
+
+.section-vision h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    padding-top: 4rem;
+    line-height: 73px;
+   
+    letter-spacing: 0.04em;
+    color: #000000
+}
+
+.section-vision .loram{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    padding-top: 3rem;
+    
+    line-height: 33px;
+    color: #404040;
+}
+
+.section-vision .loram2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    
+    line-height: 33px;
+    color: #404040;
+}
+
+.section-image{
+    width:100%;
+    overflow: hidden;
+    /* padding: 30px; */
+}
+
+.section-image img{
+    width: 100%;
+    height: 541px;
+
+}
+
+
+/*--------------------------------- Responsive Media Quaries -----------------------------*/
+
+@media only screen and (min-width: 1600px) and (max-width: 1900px) {
+    .about{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+    .about{
+        width: 100%;
+        height: 100%;
+
+    }
+    
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: 1190px;
+    }
+}
+
+/* Medium Device = 1200px */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+   
+    .about .container{
+        max-width: 1190px;
+    }
+}
+
+/* Tablet Device = 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    
+    .about .container{
+        max-width: 1190px;
+    }
+    .about .title h2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 50px;
+        text-align: center;
+        line-height: 98px;
+        letter-spacing: 0.04em;
+    }
+    
+    
+    .title p{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16.5px;
+        line-height: 24px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.1em;
+        color: #404040;
+    }
+
+    .about .about-section {
+        width: 100%;
+        overflow: hidden;
+        margin-top: -40px;
+    }
+
+    .about .about-section .first-section , .second-section , .third-section .section-vision{
+        width: 100%;
+        height: 100%;
+    
+    }
+    
+    .about .about-section .first-section  .section-vision h2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 45px;
+        padding-top: 4rem;
+        line-height: 73px;
+       
+        letter-spacing: 0.04em;
+        color: #000000
+    }
+    
+    .about .about-section .first-section  .section-vision .loram{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        padding-top: 2rem;
+        line-height: 33px;
+        color: #404040;
+    }
+    
+    .about .about-section .first-section  .section-vision .loram2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 30px;
+        color: #404040;
+    }
+    
+    .about .about-section .first-section .section-image{
+        width:100%;
+        overflow: hidden;
+    }
+    
+    .about .about-section .first-section  .section-image img{
+        width: 100%;
+        height: 510px;
+    
+    }
+
+    
+
+    .about .about-section .second-section  .section-vision h2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        text-align: left;
+        font-size: 45px;
+        padding-top: 4rem;
+        line-height: 73px;
+       
+        letter-spacing: 0.04em;
+        color: #000000
+    }
+    
+    .about .about-section .second-section  .section-vision .loram{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        padding-top: 2rem;
+        
+        line-height: 33px;
+        color: #404040;
+    }
+    
+    .about .about-section .second-section  .section-vision .loram2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        
+        line-height: 33px;
+        color: #404040;
+    }
+
+    .about .about-section .third-section  .section-vision h2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 45px;
+        padding-top: 4rem;
+        line-height: 73px;
+       
+        letter-spacing: 0.04em;
+        color: #000000
+    }
+    
+    .about .about-section .third-section  .section-vision .loram{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        padding-top: 2rem;
+        line-height: 33px;
+        color: #404040;
+    }
+    
+    .about .about-section .third-section  .section-vision .loram2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 30px;
+        color: #404040;
+    }
+    
+    .about .about-section .third-section .section-image{
+        width:100%;
+        overflow: hidden;
+    }
+    
+    .about .about-section .third-section  .section-image img{
+        width: 100%;
+        height: 510px;
+    
+    }
+
+
+    
+
+    
+    
+
+}
+
+/* Wide Mobile = 480px */
+
+@media only screen and (max-width: 767px) {
+
+    .about{
+        width: 100%;
+        height: 100%;
+    }
+
+    .about .container{
+        max-width: 1190px;
+    }
+
+    .title h2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 98px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+    }
+    
+    
+    .title p{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 24px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.1em;
+        color: #404040;
+    }
+
+    .about .about-section{
+        width: 100%;
+    }
+    
+    .about .about-section .first-section , .second-section , .third-section  {
+        width: 100%;
+        overflow: hidden
+    }
+    
+    .about .about-section .first-section{
+        margin-top:5px;
+
+    }
+
+    
+    .first-section .section-vision{
+        width: 100%;
+        height: 100%;
+    
+    }
+
+    /* .about .about-section .second-section .section-vision h2   {
+        margin-left: -30px
+        
+    } */
+    .about .about-section .second-section{
+        margin-top: 30px;
+    }
+
+    /* .about .about-section .second-section .section-vision .loram   {
+        margin-left: -10px
+        
+    }
+    .about .about-section .second-section .section-vision .loram2   {
+        margin-left: -30px
+        
+    } */
+
+    .about .about-section .third-section{
+        margin-top: 10px
+    }
+    
+    .about .about-section .first-section .section-vision h2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        padding-top: 4rem;
+        line-height: 73px;
+       
+        letter-spacing: 0.04em;
+        color: #000000
+    }
+    
+    .about .about-section .first-section .section-vision .loram{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        padding-top: 2rem;
+        
+        line-height: 33px;
+        color: #404040;
+    }
+    
+    .about .about-section .first-section .section-vision .loram2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        
+        line-height: 33px;
+        color: #404040;
+    }
+    
+    .about .about-section .first-section  .section-image{
+        width:100%;
+        overflow: hidden;
+    }
+    
+    .about .about-section .first-section .section-image img{
+        width: 100%;
+        height: 100%;
+    
+    }
+
+    
+}
+
+/* Small Device = 320px */
+
+@media only screen and (max-width: 479px) {
+
+    .about{
+        width: 100%;
+        background-color: yellow
+    }
+
+    .about .container{
+        max-width: 1190px;
+    }
+
+    .title h2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 3.5rem;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+    }
+    
+    
+    .title p{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16.5px;
+        line-height: 24px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.1em;
+        color: #404040;
+    }
+    .about section {
+        width: 100%;
+        /* margin-top: 1rem; */
+        overflow: hidden
+    }
+
+    section .section-vision{
+        width: 100%;
+        height: 100%;
+    
+    }
+    
+    .section-vision h2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        padding-top: 4rem;
+        line-height: 73px;
+       
+        letter-spacing: 0.04em;
+        color: #000000
+    }
+    
+    .section-vision .loram{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        padding-top: 2rem;
+        
+        line-height: 33px;
+        color: #404040;
+    }
+    
+    .section-vision .loram2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        
+        line-height: 33px;
+        color: #404040;
+    }
+    
+    .section-image{
+        width:100%;
+        overflow: hidden;
+    }
+    
+    .section-image img{
+        width: 100%;
+        height: 100%;
+    
+    }
+
+    
+
+    
+}

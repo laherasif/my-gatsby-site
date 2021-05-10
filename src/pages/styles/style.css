@@ -1,0 +1,736 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Yellowtail&display=swap');
+body {
+    background: #E5E5E5
+}
+
+.food {
+    padding-top: 5rem;
+    width: 100%;
+}
+
+.food section {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.section-heading {
+    width: 100%;
+    overflow: hidden;
+}
+
+.section-heading .heading {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 2rem;
+}
+
+.heading p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    margin-top: 1rem;
+    color: #404040;
+}
+
+.heading h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 73px;
+    display: flex;
+    margin-top: -2rem;
+    align-items: center;
+    color: #000000;
+}
+
+.heading .loram {
+    font-style: normal;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14.5px;
+    padding-top: 3.5em;
+    color: #404040;
+}
+
+.button {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    font-weight: 600;
+    padding: 0.8em 1.4em;
+    padding-right: 4.7em;
+    border: none;
+    color: white;
+}
+
+.button:before, .button:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: inherit;
+    padding-bottom: inherit;
+    width: 4em;
+    content: "\2192";
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.button:before {
+    background: #BA0C2F;
+}
+
+.button {
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+    width: 100%;
+    height: 4.4em;
+    border: 3px solid #BA0C2F;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.arrow {
+    background: #ffffff;
+    color: #BA0C2F;
+    text-decoration: none;
+}
+
+.arrow:after {
+    content: "\2192";
+    color: #ffffff;
+}
+
+.button:hover {
+    text-decoration: none;
+    color: #BA0C2F;
+}
+
+.heading-logo {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.heading-logo img {
+    width: 100%;
+    height: 100%;
+    padding: 2rem 4rem 2rem 4rem;
+}
+
+.heading-buttons {
+    width: 100%;
+    margin-right: 2rem;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 4rem;
+}
+
+.heading-buttons ul li {
+    list-style: none;
+    margin-bottom: 3rem;
+}
+
+.heading-buttons ul li .btn {
+    height: 60px;
+    width: 120px;
+    padding-top: 20px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    color: #BA0C2F;
+    border-color: #BA0C2F;
+}
+
+.heading-buttons ul li .btn:hover {
+    background: none;
+    font-family: 'Poppins';
+    color: #BA0C2F;
+    border-color: #BA0C2F;
+}
+
+.food section {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.section-discover {
+    width: 100%;
+    margin-top: 6rem;
+}
+
+.section-discover .discover {
+    width: 100%;
+    overflow: hidden;
+}
+
+.discover h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 55px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+.discover .discovers-card {
+    margin-top: 3rem;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 4rem 2rem 1rem;
+    background: rgba(253, 145, 145, 0.1);
+}
+
+.discovers-card ul li {
+    list-style: none;
+    display: flex;
+    color: #BA0C2F;
+    font-family: 'Poppins';
+    font-style: normal;
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: 15px;
+    margin-top: 2rem;
+    width: 100%;
+    border-bottom: 1px solid #DAD2D2;
+}
+
+.dicover-imagecard {
+    width: 100%;
+    display: flex;
+    border: none;
+    background: rgba(253, 145, 145, 0.1);
+    border-radius: 8px;
+}
+
+.dicover-imagecard .card-img-top {
+    height: 160px;
+}
+
+.dicover-imagecard .card-body .title {
+    display: flex;
+    justify-content: space-between
+}
+
+.card-body .title .card-title {
+    font-family: 'Yellowtail';
+    font-size: 20px;
+}
+
+.card-body .title .stars>span {
+    color: #FFA723;
+    padding-left: 5px;
+}
+
+.card-body p {
+    font-family: 'Poppins'
+}
+
+.card-body .explore-more {
+    width: 100%;
+    padding-top: 4.5rem;
+    display: flex;
+}
+
+.card-body .explore-more button {
+    width: 50px;
+    height: 38.89px;
+    border: 1pt solid #BA0C2F;
+    background: #BA0C2F;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+.card-body .explore-more p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 11px;
+    padding-top: 5px;
+    color: #BA0C2F;
+}
+
+.grid #first-card {
+    border: none;
+    background: none;
+    width: 300px;
+    box-shadow: none;
+}
+
+.grid #second-card {
+    width: 420px;
+    margin-left: -4rem;
+}
+
+#third-card {
+    border: none;
+    background: rgba(253, 145, 145, 0.1);
+}
+
+#reviews {
+    width: 100%;
+    /* margin-left: -20px; */
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#reviews h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    padding: 10px 0px 0px 10px;
+    font-size: 25px;
+    line-height: 39px;
+    /* identical to box height */
+    color: #000000;
+}
+
+#review-card {
+    padding: 0px;
+}
+
+#review-card li {
+    margin-top: 20px;
+    list-style: none;
+    /* display: flex; */
+    background: #ffffff;
+    box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
+    border-radius: 8px;
+    width: 100%;
+    height: 100px;
+}
+
+.review-data {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.review-data .title {
+    width: 100%;
+}
+
+.input-group-text {
+    background: #902E92;
+    border-radius: 8px 0px 0px 8px;
+}
+ .two {
+    background: #A40000;
+    border-radius: 8px 0px 0px 8px;
+}
+ .three {
+    background: #154200;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.customer_name {
+    border-radius: 80px;
+    border: 3px solid #FFFAFA;
+    box-sizing: border-box;
+    color: #ffffff;
+    width: 70.01px;
+    height: 74.48px;
+    font-size: 90px;
+}
+
+.customer_name #para {
+    font-size: 50px;
+    width: 60px;
+    height: 75;
+    text-align: center
+}
+
+.review-data .title h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    text-align: left;
+    font-size: 24px;
+    color: #000000;
+}
+
+.review-data .title p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    width: 100%;
+    line-height: 24px;
+    text-align: left;
+    color: #404040;
+}
+
+#review_show {
+    height: 120px;
+}
+
+.review-data .title-star {
+    /* width: 170px; */
+    margin-left: -120px;
+}
+
+.review-data .title-star span {
+    padding-left: 5px;
+    font-size: 15px;
+    color: #CCCCCC;
+}
+
+.review-data .title-star .checked {
+    color: #FFA723;
+    padding-left: 5px;
+}
+
+#review-card .review-left {
+    position: absolute;
+    top: 17.7%;
+    width: 90px;
+    height: 100px;
+    background: #902E92;
+    border-radius: 8px 0px 0px 8px;
+}
+
+#review-card .review-left .para {
+    position: absolute;
+    width: 70.01px;
+    height: 74.48px;
+    left: calc(64% - 70.01px/2 - 12px);
+    top: calc(55% - 74.48px/2 - 5.76px);
+    border-radius: 37px;
+    border: 3px solid #FFFAFA;
+    box-sizing: border-box;
+}
+
+.para p {
+    position: absolute;
+    width: 29px;
+    height: 75px;
+    left: calc(63% - 29px/2 - 11.5px);
+    top: calc(55% - 75px/2 - 5.5px);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFAFA;
+}
+
+#review-Don {
+    position: absolute;
+    top: 44.5%;
+    left: 5px;
+    right: 0px;
+    width: 90px;
+    height: 100px;
+    background: #A40000;
+    border-radius: 8px 0px 0px 8px;
+}
+
+#review-Don .para {
+    position: absolute;
+    width: 70.01px;
+    height: 74.48px;
+    left: calc(64% - 70.01px/2 - 12px);
+    top: calc(55% - 74.48px/2 - 5.76px);
+    border-radius: 37px;
+    border: 3px solid #FFFAFA;
+    box-sizing: border-box;
+}
+
+.para p {
+    position: absolute;
+    width: 29px;
+    height: 75px;
+    left: calc(63% - 29px/2 - 11.5px);
+    top: calc(55% - 75px/2 - 5.5px);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFAFA;
+}
+
+#review-card #review-Go {
+    position: absolute;
+    top: 71.5%;
+    left: 5px;
+    right: 0px;
+    width: 90px;
+    height: 100px;
+    background: #154200;
+    border-radius: 8px 0px 0px 8px;
+}
+
+#review-card #review-Go .para {
+    position: absolute;
+    width: 70.03px;
+    height: 74.48px;
+    left: calc(64% - 70.01px/2 - 12px);
+    top: calc(55% - 74.48px/2 - 5.76px);
+    border-radius: 40px;
+    border: 3px solid #FFFAFA;
+    box-sizing: border-box;
+}
+
+.para p {
+    position: absolute;
+    width: 29px;
+    height: 75px;
+    left: calc(63% - 29px/2 - 11.5px);
+    top: calc(55% - 75px/2 - 5.5px);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFAFA;
+}
+
+/*--------------------------------- Responsive Media Quaries -----------------------------*/
+
+@media only screen and (min-width: 1600px) and (max-width: 1900px) {
+    .container {
+        max-width: 1198px;
+        /* border: 1pt solid yellow */
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+    .container {
+        max-width: 1198px;
+        /* border: 1pt solid yellow */
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: 1190px;
+    }
+}
+
+/* Medium Device = 1200px */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        max-width: 1198px;
+        /* border: 1pt solid yellow */
+    }
+    .grid #first-card {
+        border: none;
+        background: none;
+        width: 100%;
+        box-shadow: none;
+    }
+    .grid #second-card {
+        width: 100%;
+        margin-left: 0rem;
+    }
+    .heading-buttons {
+        width: 100%;
+        padding-left: -200px;
+    }
+    .heading-buttons ul li {
+        /* margin-right:3rem; */
+        /* width:20px; */
+        text-align: left;
+        margin-top: 10px;
+        margin-left: -30px;
+    }
+    .review-data .title-star {
+        /* width: 170px; */
+        margin-top: 12px;
+    }
+    .review-data p {
+        padding-top: 10px;
+    }
+}
+
+/* Tablet Device = 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        max-width: 1198px;
+        /* border: 1pt solid yellow */
+    }
+    .grid #first-card {
+        border: none;
+        background: none;
+        width: 100%;
+        box-shadow: none;
+    }
+    .grid #second-card {
+        width: 100%;
+        margin-left: 0rem;
+    }
+    .heading-logo {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        margin-top: 40px;
+    }
+    .heading-logo {
+        width: 120%;
+        height: 80%;
+    }
+    .heading-buttons {
+        width: 100%
+    }
+    .heading-buttons ul li .btn {
+        width: 120px;
+    }
+    .heading h2 {
+        font-size: 2.3rem;
+    }
+    .heading p {
+        font-size: 18px
+    }
+    .heading .loram {
+        margin-top: -20px;
+        font-size: 14px
+    }
+    .card-body .explore-more p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 30px;
+        padding-left: 11px;
+        padding-top: 5px;
+        color: #BA0C2F;
+    }
+    .button {
+        display: inline-block;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        font-weight: 600;
+        padding: 0.8em 1.4em;
+        padding-right: 4.7em;
+        border: none;
+        color: white;
+    }
+    .button:before, .button:after {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        padding-top: inherit;
+        padding-bottom: inherit;
+        width: 2.5em;
+        content: "\2192";
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .button:before {
+        background: #BA0C2F;
+    }
+    .button {
+        margin-top: 0.5rem;
+        padding-top: 1rem;
+        width: 100%;
+        height: 4.4em;
+        border: 3px solid #BA0C2F;
+        box-sizing: border-box;
+        border-radius: 6px;
+    }
+    .arrow {
+        background: #ffffff;
+        color: #BA0C2F;
+        text-decoration: none;
+    }
+    .arrow:after {
+        content: "\2192";
+        color: #ffffff;
+    }
+    .review-data .title-star {
+        /* width: 170px; */
+        margin-top: 18px;
+    }
+    .review-data p {
+        padding-top: 10px;
+    }
+}
+
+/* Wide Mobile = 480px */
+
+@media only screen and (max-width: 767px) {
+    .container {
+        max-width: 1198px;
+        /* border: 1pt solid yellow */
+    }
+    .grid #first-card {
+        border: none;
+        background: none;
+        width: 100%;
+        box-shadow: none;
+    }
+    .grid #second-card {
+        width: 100%;
+        margin-left: 0rem;
+    }
+    .review-data .title-star {
+        /* width: 170px; */
+        margin-top: 18px;
+    }
+    .review-data p {
+        padding-top: 10px;
+    }
+}
+
+/* Small Device = 320px */
+
+@media only screen and (max-width: 479px) {
+    .container {
+        max-width: 1198px;
+        /* border: 1pt solid yellow */
+    }
+    .food {
+        margin: 0px;
+        padding: 0px;
+    }
+    .grid #first-card {
+        border: none;
+        background: none;
+        width: 100%;
+        box-shadow: none;
+    }
+    .grid #second-card {
+        width: 100%;
+        /* margin-left:-4rem; */
+    }
+    .heading-logo {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .heading-logo {
+        width: 100%;
+        height: 100%;
+    }
+}
