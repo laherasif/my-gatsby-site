@@ -1,6 +1,5 @@
 backend:
   name: github
-  repo: laherasif/my-gatsby-site
   branch: main
 
 media_folder: static/assets
